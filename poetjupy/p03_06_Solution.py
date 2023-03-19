@@ -51,5 +51,17 @@ def hexToDec(hexNum):
         return v
 
 
-
+def hexToDec2(hexNum):
+    for c in hexNum:
+        if c not in hexNumbers:
+            return None
+    
+    # iterate backwards through hexNum
+    e = 0
+    r = 0
+    for c in hexNum[::-1]:
+        r = r + hexNumbers[c] * (16 ** e)
+        e = e + 1
+    
+    return r
 
