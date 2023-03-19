@@ -1,0 +1,4 @@
+.DS_Store
+exercise_files/
+poetjupy/__pycache__/
+tests/__pycache__/

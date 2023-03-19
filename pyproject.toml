@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "poetjupy"
+version = "0.1.0"
+description = ""
+authors = ["Ben Spain <ben@thespains.net>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^1.5.3"
+jupyter = "^1.0.0"
+ipykernel = "^6.21.3"
+pytest = "^7.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
